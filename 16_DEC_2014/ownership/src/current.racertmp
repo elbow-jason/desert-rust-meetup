@@ -1,0 +1,28 @@
+fn main() {
+    println!("Hello, world!");
+/*
+C allocation on the heap and freeing of that resource
+{
+    int *x = malloc(sizeof(int));
+
+    // we can now do stuff with our handle x
+    *x = 5;
+
+    free(x);
+}
+*/
+
+/* allocation and freeing of resource in Rust */
+// "Manual" memory management.
+
+
+
+
+    {
+        let x = box 5i;
+
+    }
+}
+
+
+
