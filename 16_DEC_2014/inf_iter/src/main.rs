@@ -1,5 +1,8 @@
 
 fn main() {
-  let mut x = std::iter::count(1i, 5i).collect::<Vec<int>>();
+  for mut y in std::iter::count(1i, 5i).map(|x| x+1) {
+    y = y + 1;
+    println!("y is {}", y);
+  }
 }
 
