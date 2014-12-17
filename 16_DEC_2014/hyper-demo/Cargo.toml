@@ -6,4 +6,5 @@ authors = ["jlgoldb2 <jlgoldb2@asu.edu>"]
 
 
 [dependencies.hyper]
-hyper = "0.0.13"
+git = "https://github.com/hyperium/hyper.git"
+
